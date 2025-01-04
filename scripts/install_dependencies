@@ -1,4 +1,3 @@
 #!/bin/bash
 yum install -y httpd
-# Adding an intentional failure
-exit 1
+
