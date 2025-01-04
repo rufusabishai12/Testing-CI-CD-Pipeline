@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Rolling back to the previous version..."
+aws deploy rollback-deployment --deployment-id $DEPLOYMENT_ID
