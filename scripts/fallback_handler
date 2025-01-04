@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "Deployment failed. Executing fallback actions..."
-# Restore previous version
-cp /backup/index.html /var/www/html/index.html
-# Notify admin
-echo "Deployment failed. Fallback executed." | mail -s "Deployment Alert" admin@example.com
